@@ -1,0 +1,28 @@
+{
+  "name": "ticketmaster",
+  "version": "1.0.0",
+  "description": "Projet d'application de ticketing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GaelMiette/ticketmaster.git"
+  },
+  "keywords": [
+    "ticketing"
+  ],
+  "author": "Gael Miette",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GaelMiette/ticketmaster/issues"
+  },
+  "homepage": "https://github.com/GaelMiette/ticketmaster#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "vue": "^3.0.11"
+  }
+}
